@@ -65,7 +65,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'minitest', group: :test
 gem 'minitest-reporters', group: :test
 
-gem 'bootstrap', '~> 4.0.0'
+gem 'bootstrap-sass', '3.3.7'
 gem 'jquery-rails'
 
 gem 'rails-controller-testing'
