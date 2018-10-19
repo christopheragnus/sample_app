@@ -26,8 +26,8 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
       follow_redirect!
       assert_template 'users/show' #Assert template Asserts that the request was rendered with the appropriate template file or partials.
       assert_not flash.nil?
+      assert is_logged_in?
     end
-  
 end
 
 #By wrapping the post in the assert_no_difference 
